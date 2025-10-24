@@ -217,7 +217,7 @@ header .tag {
     background-repeat: no-repeat;
     background-image: url(../img/ottoenterfarm.png);
 }
-.txt-farm p{
+.txt-farm p {
     margin: 0 15px 0 80px;
     padding: 6px 0 3px 0;
     text-align: center;
@@ -243,7 +243,7 @@ header .tag {
     .txt-farm p {
         margin: 0 15px 0 130px;
         padding: 14px 0 3px 0;
-        font-size: 16px !important;
+        font-size: 20px !important;
     }
     .farm-button {
         float: right;
@@ -296,8 +296,57 @@ header .tag {
 }
 /* fin Ottodiy */
 
+/*Correo*/
 
+.form{
+    max-width: 400px;
+    margin: 50px auto 50px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #008CFF;
+    border-radius: 20px;
+}
 
+.form-contacto{
+    max-width: 300px;
+    margin: 100px 0 50px 0;
+    text-align: center;
+    
+}
+
+.form label{
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px 0;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.form input, .form textarea{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px !important;
+}
+
+.form button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #22C647;
+    color: #ffffff;
+    font-size: 16px !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form h3{
+    color: #ffffff;
+    margin: 20px 0 10px 0;
+}
 
 
 /* Contenido */
