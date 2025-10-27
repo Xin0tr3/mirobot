@@ -427,7 +427,14 @@ header .tag {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    .guias img{
+    width: 350px !important;
+    }
+
+    .capsulas video{
+    width: 350px !important;
+    }
+
 }
 
 /* Fin Contenido */
