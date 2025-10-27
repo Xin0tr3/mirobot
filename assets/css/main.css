@@ -299,7 +299,7 @@ header .tag {
 /*Correo*/
 
 .form{
-    max-width: 400px;
+    max-width: 400px !important;
     margin: 50px auto 50px auto;
     padding: 10px;
     text-align: center;
@@ -425,6 +425,11 @@ header .tag {
     text-align: center;
     font-size: 100px;
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
 /* Fin Contenido */
 
 
@@ -459,4 +464,22 @@ footer .logo-footer {
     width: 200px !important;
     max-width: 250px !important;
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo-footer {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .logo-footer img {
+        max-width: 100%;
+        height: auto;
+        width: 160px !important;
+        object-fit: contain;
+    }
+}
+
 /* Fin Footer */
